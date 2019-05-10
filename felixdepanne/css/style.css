@@ -1,0 +1,544 @@
+/* Header */
+.navbar{
+	box-shadow: 0px -12px 40px #555;
+	height: 60px;
+	position: sticky;
+	top: 0px;
+	z-index:1000;
+}
+
+.dantecminilogo{
+	width: 75px;
+	height: 50px;
+	padding-top: -10px;
+}
+/* End Header */
+
+/* Footer */
+#separateur{
+	background-color: #d9534f;
+	width: 60px;
+}
+/* End Footer */
+
+/* Inscription formulaire */
+form.inscription{
+	padding-top: 165px;
+	width: 420px;
+	padding-bottom: 200px;
+}
+
+#TitreInscription{
+	text-align:center;
+}
+/* End Inscription forumlaire*/
+
+/*Admin Panel*/
+form.AdminPanel{
+	padding-top: 120px;
+	width: 420px;
+	padding-bottom: 135px;
+}
+
+#AdminPanel{
+	text-align:center;
+}
+/* End Admin Panel*/
+
+/*mon Compte*/
+form.monCompte{
+	padding-top: 120px;
+	width: 420px;
+	padding-bottom: 135px;
+}
+
+#monCompte{
+	text-align:center;
+}
+
+#monCompte{
+	font-size:25px;
+}
+
+#monComptetxt {
+	font-size:20px;
+}
+
+#monComptetxt span.gauche {
+  float: left;
+}
+#monComptetxt span.droite {
+  float: right;
+}
+/* End mon Compte*/
+
+/* changepwd formulaire */
+form.changepwd{
+	padding-top: 165px;
+	width: 420px;
+	padding-bottom: 200px;
+}
+
+#TitreChangepwd{
+	text-align:center;
+}
+/* End changepwd forumlaire*/
+
+/* Connexion forumlaire */
+.connexion div.formulaire{
+	padding-top: 165px;
+	width: 420px;
+	padding-bottom: 255px;
+}
+
+#TitreConnexion{
+	text-align:center;
+}
+/* End Connexion formulaire*/
+
+/* Connexion button*/
+.connexionbtn {
+		position: absolute;
+		background-color: #d9534f;
+		color: White;
+		font-weight: bold;
+		font-size: 18px;
+		right: 25px;
+		top: 0px;
+		bottom:0px;
+		padding-left: 6px;
+		padding-right: 6px;
+		padding-top: 16px;
+	}
+	
+	
+#menuconnexion a{
+	text-decoration: none;
+	color: white;
+}	
+/* End Connexion button */
+
+/*Bouton identifiant/menu deroulant*/
+#menu, #menu ul	{
+	
+    padding:0px;
+    margin:0px;
+    list-style:none;
+}
+
+
+#userbtn	{
+		position: absolute;
+		background-color: #d9534f;
+		color: White;
+		font-weight: bold;
+		font-size: 18px;
+		right: 25px;
+		top: 0px;
+		bottom:0px;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 16px;
+}
+
+#menu a	{
+    text-decoration:none;
+    display:block;
+	font-weight:bold;
+	color: #505050;
+}
+
+#menu li{
+	user-select : none;
+}
+
+#menu a:hover {
+	color: #d9534f;
+}
+
+#menu ul	{
+    position:absolute;
+	left:-999em;
+    text-align:left;
+    z-index:1000;
+}
+
+#menu li:hover ul	{
+    left:auto;  
+}
+
+
+#menu ul:before{
+    content: '';
+    position: absolute;
+	top: 4.25px;
+	right: 5px;
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-right-width: 9px;
+	border-left-width: 9px;
+	border-bottom: 10px solid rgba(0, 0, 0, 0.25);
+}
+
+#menu ul:after{
+    content: '';
+    position: absolute;
+	top: 5.9px;
+	right: 5px;
+	width: 0;
+	height: 0;
+	border: 0 solid transparent;
+	border-right-width: 9px;
+	border-left-width: 9px;
+	border-bottom: 10px solid white;
+}
+
+#profilbtn	{
+	background-color:White;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:12px;
+	padding-right:23px;
+	margin-top:14px;
+	margin-left:-85px;
+	font-size:15px;
+	border-top: 1px solid rgba(0, 0, 0, 0.25);
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+#adminbtn	{	
+background-color:white;
+	padding-bottom:10px;
+	padding-top:7px;
+	padding-left:13px;
+	padding-right:23px;
+	margin-left:-85px;
+	font-size:15px;
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-right: 1px solid rgba(0, 0, 0, 0.25);
+	border-bottom: 0px solid rgba(0, 0, 0, 0.25);		
+}
+
+#infobtn	{	
+background-color:white;
+	padding-bottom:10px;
+	padding-top:7px;
+	padding-left:16px;
+	padding-right:23px;
+	margin-left:-85px;
+	font-size:15px;
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-right: 1px solid rgba(0, 0, 0, 0.25);
+	border-bottom: 0px solid rgba(0, 0, 0, 0.25);		
+}
+
+#deconnexionbtn	{
+	background-color:white;
+	padding-bottom:10px;
+	padding-top:10px;
+	padding-left:12px;
+	padding-right:23px;
+	margin-left:-85px;
+	font-size:15px;
+	border-top: 0.5px solid rgba(0, 0, 0, 0.25);
+	border-left: 1px solid rgba(0, 0, 0, 0.25);
+	border-right: 1px solid rgba(0, 0, 0, 0.25);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+/* Bouton identifiant/menu deroulant */
+
+/* logo materiel, logiciel, autre */
+#materiellogo{
+	width: 42%;
+	margin-left: 29%;
+	margin-top: 10%;
+}
+
+#materiellogo:hover {
+	filter:blur(2px);
+  }
+
+#logiciellogo{
+	width: 42%;	
+	margin-left: 29%;
+	margin-top: 10%;
+}
+
+#logiciellogo:hover {
+	filter:blur(2px);
+  }
+
+#autrelogo{
+	width: 42%;
+	margin-left: 29%;
+	margin-top: 10%;
+}
+
+#autrelogo:hover {
+	filter:blur(2px);
+  }
+
+.materieldesc{
+	width:42%;
+	height:40px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 150%;
+	margin-left: 29%;
+	margin-top: 15px;
+	margin-bottom: 10%;
+}
+
+.logicieldesc{
+	width:42%;
+	height:40px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 150%;
+	margin-left: 29%;
+	margin-top: 15px;
+	margin-bottom: 10%;
+}
+
+.autredesc{
+	width:42%;
+	height:40px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 150%;
+	margin-left: 29%;
+	margin-top: 15px;
+	margin-bottom: 10%;
+}
+/* Fin logo materiel, logiciel, autre */
+
+/* logo admin panel */
+#adduserlogo{
+	width: 130%;
+	margin-top: 10%;
+}
+
+.adduserdesc1{
+	width:130%;
+	height:40px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	margin-top: 15px;
+	margin-bottom: 10%;
+}
+.adduserdesc2{
+	width:130%;
+	height:33px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	margin-top: -30px;
+	margin-bottom: 10%;
+}
+#adduserlogo:hover {
+	filter:blur(2px);
+  }
+
+
+
+  #userlistlogo{
+	width: 130%;
+	margin-left: 100%;
+	margin-top: 10%;
+}
+
+.userlistdesc1{
+	width:130%;
+	height:40px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 100%;
+	margin-top: 15px;
+	margin-bottom: 10%;
+}
+.userlistdesc2{
+	width:130%;
+	height:33px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	margin-left: 100%;
+	margin-top: -30px;
+	margin-bottom: 10%;
+}
+#userlistlogo:hover {
+	filter:blur(2px);
+	}
+	
+#logomodif{
+	float: right;
+	width: 12%;
+}
+
+
+  #interventionlogo{
+	width: 130%;
+	margin-top: 30%;
+}
+  .interventiondesc1{
+	width:130%;
+	height:40px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	margin-top: 15px;
+	margin-bottom: 10%;
+}
+.interventiondesc2{
+	width:130%;
+	height:33px;
+	background: #d9534f;
+	color: White;
+	font-weight: bold;
+	text-align: center;
+	font-size: 130%;
+	margin-top: -30px;
+	margin-bottom: 10%;
+}
+#interventionlogo:hover {
+	filter:blur(2px);
+	}
+	
+
+	#passlogo{
+		width: 130%;
+		margin-top: 10%;
+	}
+		.passdesc1{
+			width:130%;
+			height:40px;
+			background: #d9534f;
+			color: White;
+			font-weight: bold;
+			text-align: center;
+			font-size: 130%;
+			margin-top: 15px;
+			margin-bottom: 10%;
+	}
+	.passdesc2{
+		width:130%;
+		height:33px;
+		background: #d9534f;
+		color: White;
+		font-weight: bold;
+		text-align: center;
+		font-size: 130%;
+		margin-top: -30px;
+		margin-bottom: 10%;
+	}
+	#passlogo:hover {
+		filter:blur(2px);
+		}
+
+
+		#emaillogo{
+			width: 130%;
+			margin-left: 100%;
+			margin-top: 10%;
+		}
+			.emaildesc1{
+				width:130%;
+				height:40px;
+				background: #d9534f;
+				color: White;
+				font-weight: bold;
+				text-align: center;
+				font-size: 130%;
+				margin-left: 100%;
+				margin-top: 15px;
+				margin-bottom: 10%;
+		}
+		.emaildesc2{
+			width:130%;
+			height:33px;
+			background: #d9534f;
+			color: White;
+			font-weight: bold;
+			text-align: center;
+			font-size: 130%;
+			margin-left: 100%;
+			margin-top: -30px;
+			margin-bottom: 10%;
+		}
+		#emaillogo:hover {
+			filter:blur(2px);
+			}
+
+
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+/* Banniere Panne Autre */
+.autreBanniere {
+  position: relative;
+  text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#autreImg{
+	height: 300px;
+	width: 100%;
+}
+/* Fin Banniere Panne Autre */
+
+/* Banniere Panne Materiel */
+.materielBanniere {
+  position: relative;
+  text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#materielImg{
+	height: 300px;
+	width: 100%;
+}
+/* Fin Banniere Panne Materiel */
+
+/* Banniere Panne Logiciel */
+.logicielBanniere {
+  position: relative;
+  text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#logicielImg{
+	height: 300px;
+	width: 100%;
+}
+/* Fin Banniere Panne Logiciel */
